@@ -1,0 +1,17 @@
+.recount-container img {
+  height: 20px;
+  width: 20px;
+  margin-right: 30px;
+}
+
+.recount-container .row {
+  display: flex;
+  align-items: center;
+}
+
+.products-counter {
+  background-color: #ffd644;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+}

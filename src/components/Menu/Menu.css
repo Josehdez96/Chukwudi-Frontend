@@ -1,0 +1,19 @@
+.Menu-row {
+  display: flex;
+}
+
+.Menu-row .Company-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.icon-menu {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: -10px;
+}

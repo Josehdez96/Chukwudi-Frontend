@@ -6,19 +6,22 @@ import MainPublicity from '../MainPublicity/MainPublicity';
 import RestaurantsAndDelivery from '../RestaurantsAndDelivery/RestaurantsAndDelivery';
 import ListOfCategories from '../ListOfCategories/ListOfCategories';
 import ListOfFoodSuggestions from '../ListOfFoodSuggestions/ListOfFoodSuggestions';
+import Menu from '../Menu/Menu';
+import MyOrderSection from '../MyOrderSection/MyOrderSection';
 
 function App() {
   return (
     <Fragment>
       <main id='app'>Main view</main>
-      <div>Menu</div>
+      <Menu />
       <Searchbar />
       <MainPublicity />
       <RestaurantsAndDelivery />
       <ListOfCategories />
       <ListOfFoodSuggestions />
 
-      <section>My order</section>
+      <MyOrderSection />
+
       <div>
         <div>User</div>
         <div>Count of items in my order</div>
