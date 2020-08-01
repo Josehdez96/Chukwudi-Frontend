@@ -1,0 +1,59 @@
+.delivery-detail {
+  background-color: #5439a3;
+  border-radius: 15px;
+  height: 100px;
+  width: 200px;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  margin: 0 18px;
+  font-size: 12px;
+}
+
+.address {
+  color: white;
+}
+
+.edit-button {
+  color: #fdd56e;
+  text-decoration: none;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 50%;
+  margin: 0 18px;
+  font-size: 12px;
+}
+
+.clock-container {
+  background-color: #66489c;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-container img {
+  height: 18px;
+  width: 18px;
+}
+
+.minutes {
+  color: white;
+  margin-top: 5px;
+  margin-left: -20px;
+}
+
+.choose-time-button {
+  color: #fdd56e;
+  margin-top: 5px;
+}

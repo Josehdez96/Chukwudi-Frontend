@@ -2,8 +2,9 @@ import React, { Fragment } from 'react';
 
 import './MyOrderSection.css';
 
-import RecountOrder from '../RecountOrder/RecountOrder';
 import emoji from '../../assets/icons/emojiglasses.jpg';
+import RecountOrder from '../RecountOrder/RecountOrder';
+import DeliveryDetail from '../DeliveryDetail/DeliveryDetail';
 
 const MyOrderSection = () => {
   return (
@@ -16,6 +17,7 @@ const MyOrderSection = () => {
           order
         </h4>
       </div>
+      <DeliveryDetail />
     </Fragment>
   );
 };
