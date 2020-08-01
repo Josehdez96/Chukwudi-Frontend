@@ -8,6 +8,7 @@ import ListOfCategories from '../../components/ListOfCategories/ListOfCategories
 import ListOfFoodSuggestions from '../../components/ListOfFoodSuggestions/ListOfFoodSuggestions';
 import Menu from '../../components/Menu/Menu';
 import MyOrderSection from '../../components/MyOrderSection/MyOrderSection';
+import TotalPurchase from '../../components/TotalPurchase/TotalPurchase';
 
 function Home() {
   return (
@@ -21,8 +22,7 @@ function Home() {
       <ListOfFoodSuggestions />
 
       <MyOrderSection />
-      <div>List of foods in My Order</div>
-      <div>Tips for delivery</div>
+      <TotalPurchase />
       <div>
         <div>Total title</div>
         <div>Total money amount</div>

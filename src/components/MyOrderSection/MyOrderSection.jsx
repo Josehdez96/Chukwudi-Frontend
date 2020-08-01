@@ -5,6 +5,7 @@ import './MyOrderSection.css';
 import emoji from '../../assets/icons/emojiglasses.jpg';
 import RecountOrder from '../RecountOrder/RecountOrder';
 import DeliveryDetail from '../DeliveryDetail/DeliveryDetail';
+import SelectedProducts from '../SelectedProducts/SelectedProducts';
 
 const MyOrderSection = () => {
   return (
@@ -18,6 +19,7 @@ const MyOrderSection = () => {
         </h4>
       </div>
       <DeliveryDetail />
+      <SelectedProducts />
     </Fragment>
   );
 };
