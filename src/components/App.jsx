@@ -1,17 +1,20 @@
 import React, { Fragment } from 'react';
 import './styles/App.css';
 
+import Searchbar from './Searchbar';
+import MainPublicity from './MainPublicity';
+
 function App() {
   return (
     <Fragment>
-      <main id="app">Main view</main>
+      <main id='app'>Main view</main>
       <div>Menu</div>
-      <div>SearchBar</div>
-      <div>main publicity</div>
+      <Searchbar />
+      <MainPublicity />
       <div>title Restaurants</div>
       <div>Order time</div>
       <div>Carrousel with kind of foods</div>
-      <div>Carrousel with specific foods</div>
+      <div>Suggestions with specific foods</div>
 
       <section>My order</section>
       <div>
