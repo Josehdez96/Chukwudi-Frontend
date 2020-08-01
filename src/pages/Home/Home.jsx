@@ -9,6 +9,7 @@ import ListOfFoodSuggestions from '../../components/ListOfFoodSuggestions/ListOf
 import Menu from '../../components/Menu/Menu';
 import MyOrderSection from '../../components/MyOrderSection/MyOrderSection';
 import TotalPurchase from '../../components/TotalPurchase/TotalPurchase';
+import Checkout from '../../components/Checkout/Checkout';
 
 function Home() {
   return (
@@ -23,12 +24,7 @@ function Home() {
 
       <MyOrderSection />
       <TotalPurchase />
-      <div>
-        <div>Total title</div>
-        <div>Total money amount</div>
-      </div>
-      <div>Persons?</div>
-      <div>Checkout button</div>
+      <Checkout />
     </Fragment>
   );
 }
