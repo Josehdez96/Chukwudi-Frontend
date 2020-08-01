@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './Home.css';
 
 import Searchbar from '../../components/Searchbar/Searchbar';
@@ -7,14 +7,13 @@ import RestaurantsAndDelivery from '../../components/RestaurantsAndDelivery/Rest
 import ListOfCategories from '../../components/ListOfCategories/ListOfCategories';
 import ListOfFoodSuggestions from '../../components/ListOfFoodSuggestions/ListOfFoodSuggestions';
 import Menu from '../../components/Menu/Menu';
-import MyOrderSection from '../../components/MyOrderSection/MyOrderSection';
-import TotalPurchase from '../../components/TotalPurchase/TotalPurchase';
-import Checkout from '../../components/Checkout/Checkout';
+// import MyOrderSection from '../../components/MyOrderSection/MyOrderSection';
+// import TotalPurchase from '../../components/TotalPurchase/TotalPurchase';
+// import Checkout from '../../components/Checkout/Checkout';
 
 function Home() {
   return (
-    <Fragment>
-      <main id='app'>Main view</main>
+    <main id='app'>
       <Menu />
       <Searchbar />
       <MainPublicity />
@@ -22,10 +21,10 @@ function Home() {
       <ListOfCategories />
       <ListOfFoodSuggestions />
 
-      <MyOrderSection />
+      {/* <MyOrderSection />
       <TotalPurchase />
-      <Checkout />
-    </Fragment>
+      <Checkout /> */}
+    </main>
   );
 }
 

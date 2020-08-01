@@ -15,7 +15,7 @@ const MainPublicity = () => {
           <Col bsPrefix className='header-image'>
             <img src={headerImage} alt='headerImage' />
           </Col>
-          <Col>
+          <Col bsPrefix className='message-section'>
             <section className='main-title-section'>
               <h3 className='main-title'>$0 delivery fo 30 days!</h3>
               <img src={partyImage} alt='party' />
@@ -25,10 +25,14 @@ const MainPublicity = () => {
             </sub>
           </Col>
           <Col bsPrefix className='learn-more-link'>
-            <div>
-              <p>Learn more</p>
-              <img src={arrow} alt='arrow' />
-            </div>
+            <Row bsPrefix className='row-learn-more'>
+              <Col>
+                <p>Learn more</p>
+              </Col>
+              <Col bsPrefix className='arrow-col'>
+                <img src={arrow} alt='arrow' />
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>

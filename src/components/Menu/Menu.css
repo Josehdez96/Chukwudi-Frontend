@@ -1,5 +1,6 @@
 .Menu-row {
   display: flex;
+  margin-left: 7px;
 }
 
 .Menu-row .Company-name {

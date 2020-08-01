@@ -1,6 +1,7 @@
 .title-and-delivery-container .row {
   display: flex;
   justify-content: space-between;
+  margin: 0 5px;
 }
 
 .title-and-delivery-container .col-2 {
