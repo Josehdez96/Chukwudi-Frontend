@@ -28,7 +28,7 @@ const FoodSuggest = () => {
         </div>
       </Row>
       <Row bsPrefix className='row-2'>
-        <h4>Titulo2</h4>
+        <h4>Bager Story</h4>
       </Row>
       <Row bsPrexix className='row-3'>
         <Col bsPrefix className='star-icon col'>

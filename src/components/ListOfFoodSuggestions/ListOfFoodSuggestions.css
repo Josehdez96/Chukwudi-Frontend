@@ -1,0 +1,14 @@
+.All-suggestion-list {
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.All-suggestion-list::-webkit-scrollbar {
+  display: none;
+}
+
+.All-suggestion-list li {
+  padding: 10px 15px;
+}

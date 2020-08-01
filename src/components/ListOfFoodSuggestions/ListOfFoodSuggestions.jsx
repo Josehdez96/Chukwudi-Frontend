@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './ListOfFoodSuggestions.css';
 import FoodSuggest from '../FoodSuggest/FoodSuggest';
 
 const FoodSuggestions = () => {

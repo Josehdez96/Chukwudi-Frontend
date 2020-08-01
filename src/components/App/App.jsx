@@ -5,7 +5,7 @@ import Searchbar from '../Searchbar/Searchbar';
 import MainPublicity from '../MainPublicity/MainPublicity';
 import RestaurantsAndDelivery from '../RestaurantsAndDelivery/RestaurantsAndDelivery';
 import ListOfCategories from '../ListOfCategories/ListOfCategories';
-import FoodSuggest from '../FoodSuggest/FoodSuggest';
+import ListOfFoodSuggestions from '../ListOfFoodSuggestions/ListOfFoodSuggestions';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <MainPublicity />
       <RestaurantsAndDelivery />
       <ListOfCategories />
-      <FoodSuggest />
+      <ListOfFoodSuggestions />
 
       <section>My order</section>
       <div>
