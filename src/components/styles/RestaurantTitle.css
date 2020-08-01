@@ -1,0 +1,10 @@
+.restaurant-title {
+  display: flex;
+  align-items: center;
+}
+
+.restaurant-title img {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}

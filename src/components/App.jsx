@@ -3,6 +3,7 @@ import './styles/App.css';
 
 import Searchbar from './Searchbar';
 import MainPublicity from './MainPublicity';
+import RestaurantsAndDelivery from './RestaurantsAndDelivery';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <div>Menu</div>
       <Searchbar />
       <MainPublicity />
-      <div>title Restaurants</div>
+      <RestaurantsAndDelivery />
       <div>Order time</div>
       <div>Carrousel with kind of foods</div>
       <div>Suggestions with specific foods</div>

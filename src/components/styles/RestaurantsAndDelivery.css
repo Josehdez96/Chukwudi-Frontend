@@ -1,0 +1,12 @@
+.title-and-delivery-container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-and-delivery-container .col-2 {
+  border: 1px solid red;
+  border-radius: 100px;
+  background-color: red;
+  height: 32px;
+  width: 105px;
+}
