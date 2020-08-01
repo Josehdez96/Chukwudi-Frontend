@@ -4,7 +4,8 @@ import './App.css';
 import Searchbar from '../Searchbar/Searchbar';
 import MainPublicity from '../MainPublicity/MainPublicity';
 import RestaurantsAndDelivery from '../RestaurantsAndDelivery/RestaurantsAndDelivery';
-import FoodCategory from '../FoodCategory/FoodCategory';
+import ListOfCategories from '../ListOfCategories/ListOfCategories';
+import FoodSuggest from '../FoodSuggest/FoodSuggest';
 
 function App() {
   return (
@@ -14,10 +15,8 @@ function App() {
       <Searchbar />
       <MainPublicity />
       <RestaurantsAndDelivery />
-      <div>Order time</div>
-      <div>Carrousel with kind of foods</div>
-      <FoodCategory />
-      <div>Suggestions with specific foods</div>
+      <ListOfCategories />
+      <FoodSuggest />
 
       <section>My order</section>
       <div>

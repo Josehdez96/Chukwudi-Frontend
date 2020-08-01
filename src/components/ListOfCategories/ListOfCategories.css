@@ -1,0 +1,14 @@
+.All-list {
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.All-list::-webkit-scrollbar {
+  display: none;
+}
+
+.All-list li {
+  padding: 10px 15px;
+}
