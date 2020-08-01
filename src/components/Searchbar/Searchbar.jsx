@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles/Searchbar.css';
+import './Searchbar.css';
 
-import searchIcon from '../assets/icons/126474.svg';
+import searchIcon from '../../assets/icons/126474.svg';
 
 const Searchbar = () => {
   return (

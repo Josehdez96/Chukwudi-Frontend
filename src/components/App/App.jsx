@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
-import './styles/App.css';
+import './App.css';
 
-import Searchbar from './Searchbar';
-import MainPublicity from './MainPublicity';
-import RestaurantsAndDelivery from './RestaurantsAndDelivery';
+import Searchbar from '../Searchbar/Searchbar';
+import MainPublicity from '../MainPublicity/MainPublicity';
+import RestaurantsAndDelivery from '../RestaurantsAndDelivery/RestaurantsAndDelivery';
+import FoodCategory from '../FoodCategory/FoodCategory';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <RestaurantsAndDelivery />
       <div>Order time</div>
       <div>Carrousel with kind of foods</div>
+      <FoodCategory />
       <div>Suggestions with specific foods</div>
 
       <section>My order</section>

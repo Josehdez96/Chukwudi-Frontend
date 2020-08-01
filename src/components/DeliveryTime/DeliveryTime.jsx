@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import './styles/DeliveryTime.css';
-import clock from '../assets/icons/149316.svg';
+import './DeliveryTime.css';
+import clock from '../../assets/icons/149316.svg';
 
 const DeliveryTime = () => {
   return (

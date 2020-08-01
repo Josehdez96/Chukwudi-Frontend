@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import './styles/MainPublicity.css';
+import './MainPublicity.css';
 
-import headerImage from '../assets/images/headerimage.png';
-import partyImage from '../assets/images/d.png';
-import arrow from '../assets/icons/109617red.svg';
+import headerImage from '../../assets/images/headerimage.png';
+import partyImage from '../../assets/images/d.png';
+import arrow from '../../assets/icons/109617red.svg';
 
 const MainPublicity = () => {
   return (

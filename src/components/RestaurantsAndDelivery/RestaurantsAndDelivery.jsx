@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import './styles/RestaurantsAndDelivery.css';
-import RestaurantTitle from './RestaurantTitle';
-import DeliveryTime from './DeliveryTime';
+import './RestaurantsAndDelivery.css';
+import RestaurantTitle from '../RestaurantTitle/RestaurantTitle';
+import DeliveryTime from '../DeliveryTime/DeliveryTime';
 
 const RestaurantsAndDelivery = () => {
   return (
