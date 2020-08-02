@@ -16,16 +16,29 @@ import Checkout from '../../components/Checkout/Checkout';
 const Home = (props) => {
   return (
     <main id='app'>
-      <section className='main-section'>
-        <section className='menu-searchbar'>
-          <Menu className='menu' />
-          <Searchbar className='searchbar' />
+      {props.showOrderMenu ? (
+        <section className='main-section is-active'>
+          <section className='menu-searchbar'>
+            <Menu className='menu' />
+            <Searchbar className='searchbar' />
+          </section>
+          <MainPublicity />
+          <RestaurantsAndDelivery />
+          <ListOfCategories />
+          <ListOfFoodSuggestions />
         </section>
-        <MainPublicity />
-        <RestaurantsAndDelivery />
-        <ListOfCategories />
-        <ListOfFoodSuggestions />
-      </section>
+      ) : (
+        <section className='main-section'>
+          <section className='menu-searchbar'>
+            <Menu className='menu' />
+            <Searchbar className='searchbar' />
+          </section>
+          <MainPublicity />
+          <RestaurantsAndDelivery />
+          <ListOfCategories />
+          <ListOfFoodSuggestions />
+        </section>
+      )}
       {props.showOrderMenu ? (
         <nav className='my-order-section is-active'>
           <MyOrderSection />

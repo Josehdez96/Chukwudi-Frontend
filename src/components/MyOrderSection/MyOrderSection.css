@@ -8,3 +8,16 @@
   width: 18px;
   height: 18px;
 }
+
+@media screen and (min-width: 1000px) {
+  .title-container h4 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .title-container h4 {
+    font-size: 32px;
+    margin-left: 20px;
+  }
+}

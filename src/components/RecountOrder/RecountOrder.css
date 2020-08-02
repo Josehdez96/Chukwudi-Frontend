@@ -22,3 +22,23 @@
   width: 28px;
   border-radius: 10px;
 }
+
+@media screen and (min-width: 1000px) {
+  .recount-container {
+    margin-right: 40px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .recount-container img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .products-counter {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+  }
+}

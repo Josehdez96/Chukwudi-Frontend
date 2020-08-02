@@ -4,6 +4,27 @@
   z-index: 1;
 }
 
+.main-section {
+  margin: -15px auto;
+  z-index: 2;
+}
+
+.my-order-section {
+  position: fixed;
+  background-color: #f9f9f8;
+  z-index: 3;
+  top: 0;
+  right: -100vw;
+  width: 85vw;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.my-order-section.is-active {
+  right: 0;
+  height: 100vh;
+}
+
 @media screen and (min-width: 305px) {
   .menu-searchbar {
     display: flex;
@@ -14,11 +35,15 @@
   }
 }
 
-@media screen and (max-width: 760px) {
-  /* Hasta 760 px ejecute este tipo de menú */
+/* DESDE 760 px ejecutar este tipo de menú */
+@media screen and (min-width: 760px) {
   .main-section {
-    margin: -15px auto;
-    z-index: 2;
+    margin: 30px 5px;
+  }
+
+  .main-section.is-active {
+    width: 60vw;
+    transition: 0.7s;
   }
 
   .my-order-section {
@@ -27,14 +52,9 @@
     z-index: 3;
     top: 0;
     right: -100vw;
-    width: 85vw;
+    width: 40vw;
     bottom: 0;
     transition: 0.5s;
-  }
-
-  .my-order-section.is-active {
-    right: 0;
-    height: 100vh;
   }
 }
 

@@ -126,11 +126,11 @@
 
 @media screen and (min-width: 760px) {
   .jumbotron-main-publicity {
-    margin: 50px 7px;
+    margin: 50px 15px 20px 10px;
   }
 
   .main-title-section .main-title {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .header-image img {
@@ -145,22 +145,21 @@
   }
 
   .learn-more-link .row-learn-more .col {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .learn-more-link .row-learn-more .col p {
-    line-height: 14px;
+    line-height: 12px;
   }
 
   .learn-more-link .row-learn-more {
     margin-bottom: 10px;
-    margin-right: 10px;
   }
 
   .arrow-col img {
-    margin-left: 20px;
-    height: 16px;
-    width: 16px;
+    margin-left: 10px;
+    height: 12px;
+    width: 12px;
   }
 }
 

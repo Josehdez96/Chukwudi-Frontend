@@ -59,8 +59,9 @@
 
 @media screen and (min-width: 760px) {
   .main-input {
-    height: 60px;
-    width: 450px;
+    height: 40px;
+    width: 190px;
+    margin-right: 20px;
   }
 
   .search-input input {

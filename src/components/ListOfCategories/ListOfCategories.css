@@ -24,12 +24,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
   .All-list li {
-    margin: 0 20px;
+    margin: 0 12px;
   }
 }

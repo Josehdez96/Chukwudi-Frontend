@@ -5,3 +5,13 @@
   margin: 0px 10px 5px 10px;
   border-bottom: 1px solid #dadbd9;
 }
+
+@media screen and (min-width: 1000px) {
+  .total-container h4 {
+    font-size: 26px;
+  }
+
+  .total-container h3 {
+    font-size: 24px;
+  }
+}

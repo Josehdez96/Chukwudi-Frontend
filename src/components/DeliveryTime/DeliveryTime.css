@@ -43,6 +43,10 @@
 }
 
 @media screen and (min-width: 400px) {
+  .delivery .row {
+    margin-left: 10px;
+  }
+
   .delivery .row .col {
     margin-bottom: 5px;
   }
@@ -56,6 +60,16 @@
   }
 
   .arrow-icon {
-    margin-left: -10px;
+    margin-left: -15px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .now-col {
+    margin-right: -3px;
+  }
+
+  .time-to-deliver .row {
+    margin-left: 10px;
   }
 }

@@ -14,10 +14,10 @@
 
 @media screen and (min-width: 400px) {
   .title-and-delivery-container .row {
-    margin: 0 24px;
+    margin: 0 14px;
   }
   .title-and-delivery-container .row .col {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .title-and-delivery-container .row .col-2 {
@@ -26,8 +26,22 @@
   }
 }
 
+@media screen and (min-width: 760px) {
+  .title-and-delivery-container .row .col {
+    font-size: 22px;
+  }
+
+  .delivery .row {
+    margin-left: 12px;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   .title-and-delivery-container {
-    margin: 20px 40px;
+    margin: 20px 60px;
+  }
+
+  .title-and-delivery-container .row .col {
+    font-size: 26px;
   }
 }

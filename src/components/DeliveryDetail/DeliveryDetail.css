@@ -63,3 +63,44 @@
   color: #fdd56e;
   margin-top: 5px;
 }
+
+@media screen and (min-width: 1000px) {
+  .delivery-detail {
+    height: 100px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .row-1 {
+    font-size: 16px;
+  }
+
+  .row-2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .delivery-detail {
+    height: 140px;
+    width: 300px;
+  }
+
+  .row-1 {
+    font-size: 20px;
+  }
+
+  .row-2 {
+    font-size: 20px;
+  }
+
+  .clock-container {
+    height: 40px;
+    width: 40px;
+  }
+
+  .clock-container img {
+    height: 30px;
+    width: 30px;
+  }
+}

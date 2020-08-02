@@ -63,3 +63,53 @@
   height: 15px;
   width: 15px;
 }
+
+@media screen and (min-width: 1000px) {
+  .main-checkout-row .persons-col {
+    height: 80px;
+    width: 170px;
+  }
+
+  .persons-col .row p {
+    font-size: 18px;
+  }
+
+  .qty-persons-selector {
+    height: 45px;
+    width: 100px;
+  }
+
+  .substract-person-button {
+    font-size: 32px;
+  }
+
+  .person-qty {
+    font-size: 32px;
+  }
+
+  .add-person-button {
+    font-size: 32px;
+  }
+
+  .checkout-button {
+    height: 80px;
+    width: 170px;
+  }
+
+  .checkout-button .col-text h4 {
+    font-size: 20px;
+  }
+
+  .checkout-button .col-arrow img {
+    margin-top: 5px;
+    height: 20px;
+    width: 25px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .main-checkout-row {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}

@@ -32,7 +32,11 @@
   }
 
   .Menu-row .Company-name {
-    font-size: 26px;
+    font-size: 22px;
     margin-left: 30px;
+  }
+
+  .icon-menu::before {
+    font-size: 26px;
   }
 }
