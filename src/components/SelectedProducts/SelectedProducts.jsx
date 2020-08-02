@@ -9,7 +9,7 @@ import productImageMock from '../../assets/images/pexels-photo-262959.jpeg';
 const SelectedProducts = () => {
   return (
     <Fragment>
-      <div>
+      <section>
         {[1, 2, 3, 4].map((product) => (
           <Row key={product} bsPrefix className='product-container'>
             <Col className='product-image-container'>
@@ -29,12 +29,12 @@ const SelectedProducts = () => {
             </Col>
           </Row>
         ))}
-      </div>
+      </section>
       <Row bsPrefix className='delivery-container'>
         <Col bsPrefix className='delivery-img'>
           <img src={deliveryCar} alt='DeliveryImage' />
         </Col>
-        <Col bsPrefix className='delivery'>
+        <Col bsPrefix className='delivery-tip'>
           Delivery
         </Col>
         <Col bsPrefix className='delivery-price'>

@@ -5,8 +5,8 @@ import './TotalPurchase.css';
 const TotalPurchase = () => {
   return (
     <section className='total-container'>
-      <h3>Total:</h3>
-      <h2>$25,97</h2>
+      <h4>Total:</h4>
+      <h3>$25,97</h3>
     </section>
   );
 };

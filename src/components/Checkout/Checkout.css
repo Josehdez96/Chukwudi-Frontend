@@ -2,11 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -10px;
+  margin-left: 10px;
 }
 
 .persons-col p {
   font-weight: 500;
   margin-top: 20px;
+  font-size: 12px;
 }
 
 .qty-persons-selector {
@@ -14,27 +17,28 @@
   border: 1px solid #dadbd9;
   justify-content: space-between;
   border-radius: 5px;
-  margin-top: 20px;
-  height: 35px;
-  width: 100px;
+  margin-top: 5px;
+  height: 25px;
+  width: 70px;
 }
 
 .substract-person-button {
   font-weight: 700;
   margin-left: 8px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .person-qty {
   color: black;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .add-person-button {
   font-weight: 700;
   margin-right: 8px;
-  font-size: 24px;
+  margin-top: 1px;
+  font-size: 20px;
 }
 
 .button-container a {
@@ -48,6 +52,7 @@
   background-color: #ffd644;
   border-radius: 15px 0px 0px 15px;
   padding: 0 30px;
+  margin-top: 20px;
 }
 
 .col-text {

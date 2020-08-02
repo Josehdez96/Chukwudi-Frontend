@@ -14,6 +14,7 @@ const MyOrderSection = () => {
       <div className='title-container'>
         <h4>
           My <img src={emoji} alt='emoji' />
+          {/* No hallé un emoji con el fondo transparente */}
           <br />
           order
         </h4>

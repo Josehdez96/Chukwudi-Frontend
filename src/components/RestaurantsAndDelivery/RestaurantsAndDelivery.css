@@ -6,8 +6,8 @@
 
 .title-and-delivery-container .col-2 {
   border: 1px solid red;
-  border-radius: 100px;
   background-color: red;
+  border-radius: 100px;
   height: 32px;
   width: 105px;
 }

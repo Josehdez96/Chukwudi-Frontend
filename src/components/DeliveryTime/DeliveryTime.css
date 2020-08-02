@@ -43,15 +43,6 @@
 }
 
 @media screen and (min-width: 400px) {
-  .delivery .row {
-    margin-left: 5px;
-  }
-  .now-col {
-    margin-right: -10px;
-  }
-}
-
-@media screen and (min-width: 400px) {
   .delivery .row .col {
     margin-bottom: 5px;
   }

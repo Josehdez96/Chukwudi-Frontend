@@ -1,8 +1,14 @@
+.all-delivery-detail {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
 .delivery-detail {
   background-color: #5439a3;
   border-radius: 15px;
-  height: 100px;
-  width: 200px;
+  height: 60px;
+  width: 170px;
 }
 
 .row-1 {
@@ -11,7 +17,7 @@
   align-items: center;
   height: 50%;
   margin: 0 18px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .address {
@@ -28,14 +34,14 @@
   justify-content: space-between;
   align-items: flex-start;
   height: 50%;
-  margin: 0 18px;
-  font-size: 12px;
+  margin: 0 12px;
+  font-size: 11px;
 }
 
 .clock-container {
   background-color: #66489c;
-  height: 30px;
-  width: 30px;
+  height: 28px;
+  width: 28px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -43,8 +49,8 @@
 }
 
 .clock-container img {
-  height: 18px;
-  width: 18px;
+  height: 16px;
+  width: 16px;
 }
 
 .minutes {

@@ -8,31 +8,33 @@ import './DeliveryDetail.css';
 
 const DeliveryDetail = () => {
   return (
-    <Jumbotron fluid bsPrefix className='delivery-detail'>
-      <Row bsPrefix className='row-1'>
-        <Col bsPrefix className='address'>
-          625 St Marks Ave
-        </Col>
-        <Col>
-          <Link to='/' className='edit-button'>
-            Edit
-          </Link>
-        </Col>
-      </Row>
-      <Row bsPrefix className='row-2'>
-        <Col>
-          <Container bsPrefix className='clock-container'>
-            <img src={clock} alt='clockIcon' />
-          </Container>
-        </Col>
-        <Col bsPrefix className='minutes'>
-          35 min
-        </Col>
-        <Col bsPrefix className='choose-time-button'>
-          Choose time
-        </Col>
-      </Row>
-    </Jumbotron>
+    <section className='all-delivery-detail'>
+      <Jumbotron fluid bsPrefix className='delivery-detail'>
+        <Row bsPrefix className='row-1'>
+          <Col bsPrefix className='address'>
+            625 St Marks Ave
+          </Col>
+          <Col>
+            <Link to='/' className='edit-button'>
+              Edit
+            </Link>
+          </Col>
+        </Row>
+        <Row bsPrefix className='row-2'>
+          <Col>
+            <Container bsPrefix className='clock-container'>
+              <img src={clock} alt='clockIcon' />
+            </Container>
+          </Col>
+          <Col bsPrefix className='minutes'>
+            35 min
+          </Col>
+          <Col bsPrefix className='choose-time-button'>
+            Choose time
+          </Col>
+        </Row>
+      </Jumbotron>
+    </section>
   );
 };
 

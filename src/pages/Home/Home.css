@@ -17,6 +17,7 @@
 @media screen and (max-width: 760px) {
   /* Hasta 760 px ejecute este tipo de menú */
   .main-section {
+    margin: -15px auto;
     z-index: 2;
   }
 
