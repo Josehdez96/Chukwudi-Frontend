@@ -30,7 +30,7 @@ const FoodSuggest = () => {
       <Row bsPrefix className='row-2'>
         <h4>Bager Story</h4>
       </Row>
-      <Row bsPrexix className='row-3'>
+      <Row bsPrefix className='row-3'>
         <Col bsPrefix className='star-icon col'>
           <img src={starIcon} alt='star' />
         </Col>

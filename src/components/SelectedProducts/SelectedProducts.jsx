@@ -11,7 +11,7 @@ const SelectedProducts = () => {
     <Fragment>
       <div>
         {[1, 2, 3, 4].map((product) => (
-          <Row bsPrefix className='product-container'>
+          <Row key={product} bsPrefix className='product-container'>
             <Col className='product-image-container'>
               <img src={productImageMock} alt='productImage' />
             </Col>
