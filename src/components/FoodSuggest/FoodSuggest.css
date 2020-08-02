@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+.card-image {
+  position: relative;
+}
+
 .card div img {
   width: 100%;
   height: 100%;
@@ -18,7 +22,7 @@
   padding-bottom: 0;
 }
 
-.card div p {
+/* .card div p {
   background-color: #f9f9f8;
   border-radius: 0 10px 0px 4px;
   position: absolute;
@@ -26,6 +30,18 @@
   left: -1px;
   padding: 4px 5px;
   font-size: 14px;
+  color: black;
+} */
+
+.card-image p {
+  position: absolute;
+  bottom: 4px;
+  right: 82px;
+  border-radius: 0 10px 0px 4px;
+  background-color: #f9f9f8;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
   color: black;
 }
 
@@ -75,13 +91,7 @@
 }
 
 @media screen and (min-width: 1000px) {
-  .card div p {
-    bottom: 52px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .card div p {
-    bottom: 47px;
+  .card-image p {
+    bottom: 4px;
   }
 }

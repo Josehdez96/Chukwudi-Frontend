@@ -24,6 +24,13 @@
   border-radius: 5px;
 }
 
+@media screen and (min-width: 280px) {
+  .icon-menu {
+    margin-top: 20px;
+    margin-right: 2px;
+  }
+}
+
 @media screen and (min-width: 360px) {
   .Menu-row .Company-name {
     margin-left: 10px;
