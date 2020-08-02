@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   margin: 0 5px;
-  margin-bottom: 20px;
 }
 
 .main-input:hover {
@@ -50,4 +49,32 @@
   height: 12px;
   margin: 0 3px;
   margin-top: 3px;
+}
+
+@media screen and (max-width: 300px) {
+  .main-input {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .main-input {
+    height: 60px;
+    width: 450px;
+  }
+
+  .search-input input {
+    font-size: 20px;
+  }
+
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-input {
+    width: 700px;
+  }
 }

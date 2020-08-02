@@ -41,3 +41,30 @@
   color: white;
   transform: rotate(90deg);
 }
+
+@media screen and (min-width: 400px) {
+  .delivery .row {
+    margin-left: 5px;
+  }
+  .now-col {
+    margin-right: -10px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .delivery .row .col {
+    margin-bottom: 5px;
+  }
+
+  .delivery-title {
+    font-size: 14px;
+  }
+
+  .now-col {
+    font-size: 13px;
+  }
+
+  .arrow-icon {
+    margin-left: -10px;
+  }
+}

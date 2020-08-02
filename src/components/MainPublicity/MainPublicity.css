@@ -3,6 +3,8 @@
   border-radius: 15px;
   height: 15vh;
   margin-bottom: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .jumbotron-main-publicity .container {
@@ -19,7 +21,7 @@
 }
 
 .header-image img {
-  max-height: 15vh;
+  height: 15vh;
   width: 105px;
 }
 
@@ -81,4 +83,158 @@
   height: 175%;
   width: 10px;
   margin-left: 4px;
+}
+
+@media screen and (min-width: 370px) {
+  .learn-more-link .row-learn-more {
+    margin-left: 30px;
+  }
+
+  .arrow-col {
+    margin-left: 6px;
+  }
+
+  .header-image img {
+    height: 14vh;
+    width: 125px;
+    margin-bottom: -6px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .learn-more-link .row-learn-more {
+    margin-left: 0;
+  }
+
+  .learn-more-link .row-learn-more .col {
+    margin-right: 15px;
+  }
+
+  .main-title-section .main-title {
+    font-size: 22px;
+  }
+
+  .main-title-section img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .row-learn-more p {
+    width: 20px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .jumbotron-main-publicity {
+    margin: 50px 7px;
+  }
+
+  .main-title-section .main-title {
+    font-size: 32px;
+  }
+
+  .header-image img {
+    height: 15vh;
+    width: 165px;
+    margin-bottom: -2px;
+  }
+
+  .main-title-section img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .learn-more-link .row-learn-more .col {
+    font-size: 16px;
+  }
+
+  .learn-more-link .row-learn-more .col p {
+    line-height: 14px;
+  }
+
+  .learn-more-link .row-learn-more {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .arrow-col img {
+    margin-left: 20px;
+    height: 16px;
+    width: 16px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .jumbotron-main-publicity {
+    height: 23vh;
+    margin: 40px 30px;
+  }
+
+  .header-image {
+    height: 100%;
+  }
+
+  .header-image img {
+    height: 23vh;
+    width: 255px;
+    margin-bottom: -5px;
+    margin-left: 30px;
+  }
+
+  .learn-more-link .row-learn-more .col {
+    font-size: 24px;
+  }
+
+  .learn-more-link .row-learn-more .col p {
+    line-height: 20px;
+  }
+
+  .learn-more-link .row-learn-more {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .arrow-col img {
+    margin-left: 40px;
+    height: 24px;
+    width: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron-main-publicity {
+    height: 28vh;
+  }
+
+  .header-image img {
+    height: 28vh;
+    width: 280px;
+  }
+
+  .main-title-section .main-title {
+    font-size: 50px;
+  }
+
+  .main-title-section {
+    margin-bottom: 10px;
+  }
+
+  .main-title-section img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .main-paragraph {
+    font-size: 24px;
+  }
+
+  .row-learn-more p {
+    font-size: 16px;
+  }
+
+  .learn-more-link .row-learn-more .arrow-col img {
+    height: 16px;
+    width: 16px;
+    margin-left: 18px;
+  }
 }

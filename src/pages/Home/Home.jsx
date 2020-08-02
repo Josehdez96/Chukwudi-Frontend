@@ -14,8 +14,10 @@ import Menu from '../../components/Menu/Menu';
 function Home() {
   return (
     <main id='app'>
-      <Menu />
-      <Searchbar />
+      <section className='menu-searchbar'>
+        <Menu className='menu' />
+        <Searchbar className='searchbar' />
+      </section>
       <MainPublicity />
       <RestaurantsAndDelivery />
       <ListOfCategories />

@@ -17,7 +17,7 @@ const MainPublicity = () => {
           </Col>
           <Col bsPrefix className='message-section'>
             <section className='main-title-section'>
-              <h3 className='main-title'>$0 delivery fo 30 days!</h3>
+              <h3 className='main-title'>$0 delivery for 30 days!</h3>
               <img src={partyImage} alt='party' />
             </section>
             <sub className='main-paragraph'>

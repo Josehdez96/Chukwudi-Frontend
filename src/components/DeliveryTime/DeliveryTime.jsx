@@ -13,7 +13,7 @@ const DeliveryTime = () => {
           <img src={clock} alt='clock' />
         </Col>
         <Col bsPrefix className='delivery-title'>
-          Delivery
+          Delivery:
         </Col>
         <Col bsPrefix className='time-to-deliver'>
           <Row>

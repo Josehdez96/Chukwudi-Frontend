@@ -12,7 +12,7 @@ const Menu = () => {
         <img src={menuIcon} alt='menuIcon' />
       </Col>
       <Col bsPrefix className='Company-name'>
-        Chukwudi
+        <h3>Chukwudi</h3>
       </Col>
     </Row>
   );

@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 600;
+  margin-right: 15px;
 }
 
 .icon-menu {
@@ -16,5 +17,22 @@
   border-radius: 50%;
   display: flex;
   align-items: center;
-  margin-right: -10px;
+  margin-right: -20px;
+}
+
+@media screen and (min-width: 360px) {
+  .Menu-row .Company-name {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .Menu-row {
+    margin-left: 40px;
+  }
+
+  .Menu-row .Company-name {
+    font-size: 26px;
+    margin-left: 30px;
+  }
 }

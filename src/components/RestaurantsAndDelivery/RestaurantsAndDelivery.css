@@ -11,3 +11,23 @@
   height: 32px;
   width: 105px;
 }
+
+@media screen and (min-width: 400px) {
+  .title-and-delivery-container .row {
+    margin: 0 24px;
+  }
+  .title-and-delivery-container .row .col {
+    font-size: 24px;
+  }
+
+  .title-and-delivery-container .row .col-2 {
+    height: 45px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .title-and-delivery-container {
+    margin: 20px 40px;
+  }
+}

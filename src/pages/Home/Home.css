@@ -3,4 +3,18 @@
   min-height: 100vh;
 }
 
-/* border: 1px solid blue; */
+@media screen and (min-width: 305px) {
+  .menu-searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px 5px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-searchbar {
+    margin: 25px 30px;
+  }
+}
