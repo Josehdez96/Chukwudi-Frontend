@@ -59,6 +59,14 @@
   align-items: flex-end;
 }
 
+.button-learn-more {
+  text-decoration: none;
+}
+
+.button-learn-more-arrow {
+  text-decoration: none;
+}
+
 .row-learn-more {
   display: flex;
   align-items: center;
@@ -219,12 +227,12 @@
   }
 
   .main-title-section img {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 60px;
   }
 
   .main-paragraph {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .row-learn-more p {
@@ -235,5 +243,15 @@
     height: 16px;
     width: 16px;
     margin-left: 18px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .main-title-section .main-title {
+    font-size: 30px;
+  }
+
+  .main-paragraph {
+    font-size: 18px;
   }
 }

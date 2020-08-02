@@ -30,7 +30,9 @@ const DeliveryDetail = () => {
             35 min
           </Col>
           <Col bsPrefix className='choose-time-button'>
-            Choose time
+            <Link to='/' className='choose-time-button'>
+              Choose time
+            </Link>
           </Col>
         </Row>
       </Jumbotron>

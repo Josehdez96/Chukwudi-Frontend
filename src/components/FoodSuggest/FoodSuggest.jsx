@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import './FoodSuggest.css';
 import starIcon from '../../assets/icons/149220.svg';
@@ -22,10 +23,12 @@ const FoodSuggest = () => {
   return (
     <Container bsPrefix className='card'>
       <Row>
-        <div className='card-image'>
-          <img src={imageTest} alt='imgtest' />
-          <p>25-30min</p>
-        </div>
+        <Link to='/' className='button-go-to-eat'>
+          <div className='card-image'>
+            <img src={imageTest} alt='imgtest' />
+            <p>25-30min</p>
+          </div>
+        </Link>
       </Row>
       <Row bsPrefix className='row-2'>
         <h4>Bager Story</h4>

@@ -107,9 +107,29 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
+  .persons-col .row p {
+    font-size: 14px;
+  }
+
+  .qty-persons-selector {
+    height: 35px;
+    width: 90px;
+  }
+
+  .substract-person-button {
+    font-size: 24px;
+  }
+
+  .person-qty {
+    font-size: 24px;
+  }
+
+  .add-person-button {
+    font-size: 24px;
+  }
+
   .main-checkout-row {
     margin-left: 30px;
-    margin-top: 30px;
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import { Link } from 'react-router-dom';
 import './MainPublicity.css';
 
 import headerImage from '../../assets/images/headerimage.png';
@@ -27,10 +28,14 @@ const MainPublicity = () => {
           <Col bsPrefix className='learn-more-link'>
             <Row bsPrefix className='row-learn-more'>
               <Col>
-                <p>Learn more</p>
+                <Link to='/' className='button-learn-more'>
+                  <p>Learn more</p>
+                </Link>
               </Col>
               <Col bsPrefix className='arrow-col'>
-                <img src={arrow} alt='arrow' />
+                <Link to='/' className='button-learn-more-arrow'>
+                  <img src={arrow} alt='arrow' />
+                </Link>
               </Col>
             </Row>
           </Col>

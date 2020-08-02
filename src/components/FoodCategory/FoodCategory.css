@@ -11,6 +11,10 @@
   width: 100%;
 }
 
+.button-go-to-category {
+  text-decoration: none;
+}
+
 .category-container .row:hover {
   background-color: #ffd543;
   border-radius: 100px;

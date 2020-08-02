@@ -7,11 +7,15 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .total-container {
+    height: 60px;
+  }
+
   .total-container h4 {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .total-container h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }

@@ -86,43 +86,50 @@
 
 @media screen and (min-width: 1000px) {
   .product-image-container img {
-    height: 50px;
-    width: 90px;
+    height: 40px;
+    width: 70px;
+    margin-top: -10px;
   }
 
   .qty-products {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .separator {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .product-name {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .product-price {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .delivery-container .delivery-img img {
-    height: 50px;
-    width: 90px;
+    height: 40px;
+    width: 70px;
   }
 
   .delivery-tip {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .delivery-price {
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 115px;
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .delivery-price {
-    margin-left: 280px;
+    margin-left: 300px;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .delivery-price {
+    margin-left: 392px;
   }
 }

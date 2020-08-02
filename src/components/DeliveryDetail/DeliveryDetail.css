@@ -29,6 +29,11 @@
   text-decoration: none;
 }
 
+.choose-time-button {
+  color: #fdd56e;
+  text-decoration: none;
+}
+
 .row-2 {
   display: flex;
   justify-content: space-between;
@@ -68,7 +73,8 @@
   .delivery-detail {
     height: 100px;
     width: 200px;
-    margin-bottom: 30px;
+    margin-top: -10px;
+    margin-bottom: 10px;
   }
 
   .row-1 {
@@ -80,27 +86,27 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .delivery-detail {
-    height: 140px;
-    width: 300px;
+    height: 90px;
+    width: 200px;
   }
 
   .row-1 {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .row-2 {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .clock-container {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
   }
 
   .clock-container img {
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
   }
 }

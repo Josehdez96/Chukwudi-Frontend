@@ -25,20 +25,20 @@
 
 @media screen and (min-width: 1000px) {
   .recount-container {
-    margin-right: 40px;
-    margin-top: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .recount-container img {
-    height: 24px;
-    width: 24px;
+    height: 14px;
+    width: 14px;
   }
 
   .products-counter {
-    height: 50px;
-    width: 50px;
-    font-size: 24px;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
   }
 }
