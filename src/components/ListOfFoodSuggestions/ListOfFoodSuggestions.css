@@ -20,3 +20,11 @@
     margin-bottom: 10px;
   }
 }
+
+@media screen and (min-width: 760px) {
+  .All-suggestion-list {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+}

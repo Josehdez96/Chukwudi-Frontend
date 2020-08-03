@@ -23,6 +23,7 @@
 .my-order-section.is-active {
   right: 0;
   height: 100vh;
+  overflow-y: scroll;
 }
 
 @media screen and (min-width: 305px) {
