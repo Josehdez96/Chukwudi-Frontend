@@ -9,6 +9,7 @@
 @media screen and (min-width: 1000px) {
   .total-container {
     height: 60px;
+    margin: 0px 30px 5px 20px;
   }
 
   .total-container h4 {
@@ -17,5 +18,11 @@
 
   .total-container h3 {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .total-container {
+    margin: 0px 50px 5px 20px;
   }
 }

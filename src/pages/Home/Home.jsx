@@ -13,45 +13,39 @@ import MyOrderSection from '../../components/MyOrderSection/MyOrderSection';
 import TotalPurchase from '../../components/TotalPurchase/TotalPurchase';
 import Checkout from '../../components/Checkout/Checkout';
 
+const renderHomePage = (baseClass, actualMenuState) => {
+  const activeClass = actualMenuState ? `${baseClass} is-active` : baseClass;
+  return (
+    <section className={activeClass}>
+      <section className='menu-searchbar'>
+        <Menu />
+        <Searchbar />
+      </section>
+      <MainPublicity />
+      <RestaurantsAndDelivery />
+      <ListOfCategories />
+      <ListOfFoodSuggestions />
+    </section>
+  );
+};
+
+const renderMyOrderPage = (baseClass, actualMenuState) => {
+  const activeClass = actualMenuState ? `${baseClass} is-active` : baseClass;
+  return (
+    <nav className={activeClass}>
+      <MyOrderSection />
+      <TotalPurchase />
+      <Checkout />
+    </nav>
+  );
+};
+
+/* Componente que se renderiza */
 const Home = (props) => {
   return (
     <main id='app'>
-      {props.showOrderMenu ? (
-        <section className='main-section is-active'>
-          <section className='menu-searchbar'>
-            <Menu />
-            <Searchbar />
-          </section>
-          <MainPublicity />
-          <RestaurantsAndDelivery />
-          <ListOfCategories />
-          <ListOfFoodSuggestions />
-        </section>
-      ) : (
-        <section className='main-section'>
-          <section className='menu-searchbar'>
-            <Menu />
-            <Searchbar />
-          </section>
-          <MainPublicity />
-          <RestaurantsAndDelivery />
-          <ListOfCategories />
-          <ListOfFoodSuggestions />
-        </section>
-      )}
-      {props.showOrderMenu ? (
-        <nav className='my-order-section is-active'>
-          <MyOrderSection />
-          <TotalPurchase />
-          <Checkout />
-        </nav>
-      ) : (
-        <nav className='my-order-section'>
-          <MyOrderSection />
-          <TotalPurchase />
-          <Checkout />
-        </nav>
-      )}
+      {renderHomePage('main-section', props.showOrderMenu)}
+      {renderMyOrderPage('my-order-section', props.showOrderMenu)}
     </main>
   );
 };
