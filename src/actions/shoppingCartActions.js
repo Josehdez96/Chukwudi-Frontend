@@ -1,4 +1,4 @@
-import { ADD_TO_CART, GET_TOTAL } from '../types/shoppingCartTypes';
+import { ADD_TO_CART } from '../types/shoppingCartTypes';
 
 export const addToCart = (element) => (dispatch, getState) => {
   const { shoppingCart } = getState().shoppingCartReducer;
