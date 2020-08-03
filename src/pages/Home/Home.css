@@ -31,8 +31,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
     margin: 20px 5px;
+  }
+
+  .menu-searchbar .searchbar {
+    height: 100%;
   }
 }
 

@@ -19,8 +19,8 @@ const Home = (props) => {
       {props.showOrderMenu ? (
         <section className='main-section is-active'>
           <section className='menu-searchbar'>
-            <Menu className='menu' />
-            <Searchbar className='searchbar' />
+            <Menu />
+            <Searchbar />
           </section>
           <MainPublicity />
           <RestaurantsAndDelivery />
@@ -30,8 +30,8 @@ const Home = (props) => {
       ) : (
         <section className='main-section'>
           <section className='menu-searchbar'>
-            <Menu className='menu' />
-            <Searchbar className='searchbar' />
+            <Menu />
+            <Searchbar />
           </section>
           <MainPublicity />
           <RestaurantsAndDelivery />

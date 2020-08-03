@@ -13,7 +13,14 @@
 
 .recount-container .row {
   display: flex;
+  width: 100%;
+}
+
+.icon-and-counter-containter {
+  width: 100%;
+  display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .products-counter {
@@ -21,6 +28,16 @@
   height: 28px;
   width: 28px;
   border-radius: 10px;
+}
+
+.exit-button-container {
+  margin: 0 20px;
+  background-color: red;
+  height: 24px;
+  width: 28px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1000px) {

@@ -6,7 +6,7 @@
   height: 40px;
   display: flex;
   align-items: center;
-  margin: 0 5px;
+  margin: 0 5px 5px 5px;
 }
 
 .main-input:hover {
