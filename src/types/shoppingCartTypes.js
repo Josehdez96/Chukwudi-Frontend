@@ -1,1 +1,2 @@
-export const COUNTER_CART = 'counter_cart';
+export const ADD_TO_CART = 'add_to_cart';
+export const GET_TOTAL = 'get_total';

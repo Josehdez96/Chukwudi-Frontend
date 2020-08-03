@@ -1,11 +1,14 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import { Container, Col, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
 import './RecountOrder.css';
 import userIcon from '../../assets/icons/747376.svg';
 
-const RecountOrder = () => {
+import * as shoppingCartActions from '../../actions/shoppingCartActions';
+
+const RecountOrder = (props) => {
   return (
     <Container bsPrefix className='recount-container'>
       <Row>
@@ -14,7 +17,7 @@ const RecountOrder = () => {
         </Col>
         <Col>
           <Button variant='info' bsPrefix className='products-counter'>
-            3
+            {props.shoppingCart.length}
           </Button>
         </Col>
       </Row>
@@ -22,4 +25,8 @@ const RecountOrder = () => {
   );
 };
 
-export default RecountOrder;
+const mapStateToProps = (reducers) => {
+  return reducers.shoppingCartReducer;
+};
+
+export default connect(mapStateToProps, shoppingCartActions)(RecountOrder);

@@ -8,9 +8,18 @@ import starIcon from '../../assets/icons/149220.svg';
 
 import * as shoppingCartActions from '../../actions/shoppingCartActions';
 
-const FoodSuggest = (props) => {
-  const addOrRemove = () => {
-    console.log(props);
+const FoodSuggest = ({
+  shoppingCart,
+  addToCart,
+  image,
+  time,
+  name,
+  qualification,
+  price,
+  id,
+}) => {
+  const handleAddToCart = () => {
+    addToCart({ image, price, name, id });
   };
 
   return (
@@ -18,22 +27,22 @@ const FoodSuggest = (props) => {
       <Row>
         <Link to='/' className='button-go-to-eat'>
           <div className='card-image'>
-            <img src={props.image} alt='foodImg' />
-            <p>{props.time}</p>
+            <img src={image} alt='foodImg' />
+            <p>{time}</p>
           </div>
         </Link>
       </Row>
       <Row bsPrefix className='row-2'>
-        <h4>{props.name}</h4>
+        <h4>{name}</h4>
       </Row>
       <Row bsPrefix className='row-3'>
-        <button onClick={addOrRemove}>
+        <button onClick={handleAddToCart}>
           <Col bsPrefix className='star-icon col'>
             <img src={starIcon} alt='star' />
           </Col>
         </button>
         <Col bsPrefix className='score'>
-          {props.qualification}
+          {qualification}
         </Col>
         <Col bsPrefix className='kind-1'>
           Kind
@@ -42,7 +51,7 @@ const FoodSuggest = (props) => {
           · Kind
         </Col>
         <Col bsPrefix className='price'>
-          {`· $ ${props.price}`}
+          {`· $ ${price}`}
         </Col>
       </Row>
     </Container>

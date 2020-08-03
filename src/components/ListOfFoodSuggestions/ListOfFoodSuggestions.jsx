@@ -15,6 +15,7 @@ const FoodSuggestions = () => {
       {apiProductsDataMock.map((suggest) => (
         <li key={suggest.id}>
           <FoodSuggest
+            id={suggest.id}
             image={suggest.image}
             name={suggest.name}
             price={suggest.price}

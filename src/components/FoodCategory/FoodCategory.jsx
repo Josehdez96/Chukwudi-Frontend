@@ -15,7 +15,7 @@ const FoodCategory = (props) => {
             </div>
           </Col>
           <Col>
-            <h6>{props.name}</h6>
+            <h6 className='category-name'>{props.name}</h6>
           </Col>
         </Row>
       </Container>

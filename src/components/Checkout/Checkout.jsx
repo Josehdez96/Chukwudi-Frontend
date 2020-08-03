@@ -10,10 +10,10 @@ import * as personCounterActions from '../../actions/personCounterActions';
 
 const Checkout = (props) => {
   const addPerson = () => {
-    props.addPerson(props[0].personCounter);
+    props.addPerson(props.personCounterReducer.personCounter);
   };
   const substractPerson = () => {
-    props.substractPerson(props[0].personCounter);
+    props.substractPerson(props.personCounterReducer.personCounter);
   };
 
   return (
@@ -32,7 +32,7 @@ const Checkout = (props) => {
             -
           </Button>
           <Button variant='warning' disabled bsPrefix className='person-qty'>
-            {props[0].personCounter}
+            {props.personCounterReducer.personCounter}
           </Button>
           <Button
             variant='warning'
@@ -60,8 +60,8 @@ const Checkout = (props) => {
   );
 };
 
-const mapStateToProps = (reducers) => {
-  return [reducers.personCounterReducer, reducers.shoppingCartReducer];
+const mapStateToProps = ({ personCounterReducer, shoppingCartReducer }) => {
+  return { personCounterReducer, shoppingCartReducer };
 };
 
 export default connect(mapStateToProps, personCounterActions)(Checkout);
