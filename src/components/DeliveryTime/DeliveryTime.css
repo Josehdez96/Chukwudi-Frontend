@@ -30,7 +30,16 @@
   margin-left: 0px;
 }
 
-.now-col {
+.delivery-time-selector {
+  text-decoration: none;
+  color: white;
+}
+
+.delivery-time-selector-2 {
+  text-decoration: none;
+}
+
+.actual-delivery-time-col {
   margin-right: -5px;
 }
 
@@ -55,7 +64,7 @@
     font-size: 14px;
   }
 
-  .now-col {
+  .actual-delivery-time-col {
     font-size: 13px;
   }
 
@@ -65,7 +74,7 @@
 }
 
 @media screen and (min-width: 760px) {
-  .now-col {
+  .actual-delivery-time-col {
     margin-right: -3px;
   }
 

@@ -1,12 +1,21 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-
 import './Checkout.css';
 import arrow from '../../assets/icons/109617.svg';
 
-const Checkout = () => {
+import * as personCounterActions from '../../actions/personCounterActions';
+
+const Checkout = (props) => {
+  const addPerson = () => {
+    props.addPerson(props[0].personCounter);
+  };
+  const substractPerson = () => {
+    props.substractPerson(props[0].personCounter);
+  };
+
   return (
     <Row bsPrefix className='main-checkout-row'>
       <Col bsPrefix className='persons-col'>
@@ -18,13 +27,19 @@ const Checkout = () => {
             variant='warning'
             bsPrefix
             className='substract-person-button'
+            onClick={substractPerson}
           >
             -
           </Button>
           <Button variant='warning' disabled bsPrefix className='person-qty'>
-            1
+            {props[0].personCounter}
           </Button>
-          <Button variant='warning' bsPrefix className='add-person-button'>
+          <Button
+            variant='warning'
+            bsPrefix
+            className='add-person-button'
+            onClick={addPerson}
+          >
             +
           </Button>
         </Row>
@@ -45,4 +60,8 @@ const Checkout = () => {
   );
 };
 
-export default Checkout;
+const mapStateToProps = (reducers) => {
+  return [reducers.personCounterReducer, reducers.shoppingCartReducer];
+};
+
+export default connect(mapStateToProps, personCounterActions)(Checkout);

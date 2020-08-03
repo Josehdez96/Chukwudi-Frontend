@@ -28,6 +28,10 @@
   font-size: 20px;
 }
 
+.substract-person-button:active {
+  color: #ffd644;
+}
+
 .person-qty {
   color: black;
   font-weight: 700;
@@ -39,6 +43,10 @@
   margin-right: 8px;
   margin-top: 1px;
   font-size: 20px;
+}
+
+.add-person-button:active {
+  color: #ffd644;
 }
 
 .button-container a {

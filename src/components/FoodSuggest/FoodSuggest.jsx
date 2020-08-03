@@ -1,11 +1,18 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import './FoodSuggest.css';
 import starIcon from '../../assets/icons/149220.svg';
 
+import * as shoppingCartActions from '../../actions/shoppingCartActions';
+
 const FoodSuggest = (props) => {
+  const addOrRemove = () => {
+    console.log(props);
+  };
+
   return (
     <Container bsPrefix className='card'>
       <Row>
@@ -20,9 +27,11 @@ const FoodSuggest = (props) => {
         <h4>{props.name}</h4>
       </Row>
       <Row bsPrefix className='row-3'>
-        <Col bsPrefix className='star-icon col'>
-          <img src={starIcon} alt='star' />
-        </Col>
+        <button onClick={addOrRemove}>
+          <Col bsPrefix className='star-icon col'>
+            <img src={starIcon} alt='star' />
+          </Col>
+        </button>
         <Col bsPrefix className='score'>
           {props.qualification}
         </Col>
@@ -40,4 +49,8 @@ const FoodSuggest = (props) => {
   );
 };
 
-export default FoodSuggest;
+const mapStateToProps = (reducer) => {
+  return reducer.shoppingCartReducer;
+};
+
+export default connect(mapStateToProps, shoppingCartActions)(FoodSuggest);

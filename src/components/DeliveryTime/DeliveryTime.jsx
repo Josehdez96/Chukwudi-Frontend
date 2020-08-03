@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import './DeliveryTime.css';
@@ -17,12 +18,16 @@ const DeliveryTime = () => {
         </Col>
         <Col bsPrefix className='time-to-deliver'>
           <Row>
-            <Col bsPrefix className='now-col'>
-              Now
-            </Col>
-            <Col bsPrefix className='arrow-icon'>
-              <img src={arrow} alt='arrowIcon' />
-            </Col>
+            <Link to='/' className='delivery-time-selector'>
+              <Col bsPrefix className='actual-delivery-time-col'>
+                Now
+              </Col>
+            </Link>
+            <Link to='/' className='delivery-time-selector-2'>
+              <Col bsPrefix className='arrow-icon'>
+                <img src={arrow} alt='arrowIcon' />
+              </Col>
+            </Link>
           </Row>
         </Col>
       </Row>
