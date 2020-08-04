@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import './Cart.css';
 
 const renderProductsSelected = (props) => {
+  console.log(props);
   return props.shoppingCart.map((product, key) => (
     <tr key={product.id} className='product-container'>
       <td className='product-image-container'>

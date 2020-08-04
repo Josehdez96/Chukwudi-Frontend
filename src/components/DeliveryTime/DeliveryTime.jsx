@@ -11,7 +11,6 @@ import arrow from '../../assets/icons/118740.svg';
 import * as deliveryTimeActions from '../../actions/deliveryTimeActions';
 
 const DeliveryTime = (props) => {
-  console.log(props);
   return (
     <Container bsPrefix className='delivery'>
       <Row>
@@ -34,19 +33,19 @@ const DeliveryTime = (props) => {
                   <Row>
                     <td className='deliver-time-container'>
                       <Link to='/' className='delivery-time-selector'>
-                        <Col
+                        <td
                           bsPrefix
                           className={`actual-delivery-time-col ${props.deliveryTime[1]}`}
                         >
                           {props.deliveryTime[0]}
-                        </Col>
+                        </td>
                       </Link>
                     </td>
                     <td className='icon-container'>
                       <Link to='/' className='delivery-time-selector-2'>
-                        <Col bsPrefix className='arrow-icon'>
+                        <td bsPrefix className='arrow-icon'>
                           <img src={arrow} alt='arrowIcon' />
-                        </Col>
+                        </td>
                       </Link>
                     </td>
                   </Row>
