@@ -1,0 +1,53 @@
+.Menu-row {
+  display: flex;
+  margin-left: 7px;
+}
+
+.Menu-row .Company-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: -10px;
+  margin-right: 15px;
+}
+
+.icon-menu {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: -20px;
+}
+
+.icon-menu:hover::before {
+  background-color: #efa335;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 280px) {
+  .icon-menu {
+    margin-top: 20px;
+    margin-right: 2px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .Menu-row .Company-name {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .Menu-row {
+    margin-left: 40px;
+  }
+
+  .Menu-row .Company-name {
+    font-size: 22px;
+    margin-left: 30px;
+  }
+
+  .icon-menu::before {
+    font-size: 26px;
+  }
+}

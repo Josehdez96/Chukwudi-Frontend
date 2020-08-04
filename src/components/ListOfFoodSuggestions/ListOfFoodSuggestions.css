@@ -1,0 +1,29 @@
+.All-suggestion-list {
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.All-suggestion-list::-webkit-scrollbar {
+  display: none;
+}
+
+.All-suggestion-list li {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 400px) {
+  .All-suggestion-list li {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .All-suggestion-list {
+    display: flex;
+    margin-bottom: 20px;
+  }
+}

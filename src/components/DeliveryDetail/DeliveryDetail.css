@@ -1,0 +1,112 @@
+.all-delivery-detail {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.delivery-detail {
+  background-color: #5439a3;
+  border-radius: 15px;
+  height: 60px;
+  width: 170px;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  margin: 0 18px;
+  font-size: 11px;
+}
+
+.address {
+  color: white;
+}
+
+.edit-button {
+  color: #fdd56e;
+  text-decoration: none;
+}
+
+.choose-time-button {
+  color: #fdd56e;
+  text-decoration: none;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 50%;
+  margin: 0 12px;
+  font-size: 11px;
+}
+
+.clock-container {
+  background-color: #66489c;
+  height: 28px;
+  width: 28px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-container img {
+  height: 16px;
+  width: 16px;
+}
+
+.minutes {
+  color: white;
+  margin-top: 5px;
+  margin-left: -20px;
+}
+
+.choose-time-button {
+  color: #fdd56e;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+  .delivery-detail {
+    height: 100px;
+    width: 200px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+  .row-1 {
+    font-size: 16px;
+  }
+
+  .row-2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .delivery-detail {
+    height: 90px;
+    width: 200px;
+  }
+
+  .row-1 {
+    font-size: 12px;
+  }
+
+  .row-2 {
+    font-size: 12px;
+  }
+
+  .clock-container {
+    height: 30px;
+    width: 30px;
+  }
+
+  .clock-container img {
+    height: 20px;
+    width: 20px;
+  }
+}

@@ -1,0 +1,28 @@
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 10px 5px 10px;
+  border-bottom: 1px solid #dadbd9;
+}
+
+@media screen and (min-width: 1000px) {
+  .total-container {
+    height: 60px;
+    margin: 0px 30px 5px 20px;
+  }
+
+  .total-container h4 {
+    font-size: 22px;
+  }
+
+  .total-container h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .total-container {
+    margin: 0px 50px 5px 20px;
+  }
+}

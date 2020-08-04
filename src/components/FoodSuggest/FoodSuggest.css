@@ -1,0 +1,90 @@
+.card {
+  border-radius: 5px;
+  width: 170px;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.button-go-to-eat {
+  text-decoration: none;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding-bottom: 0;
+}
+
+.card-image p {
+  position: absolute;
+  bottom: 4px;
+  right: 82px;
+  border-radius: 0 10px 0px 4px;
+  background-color: #f9f9f8;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: black;
+}
+
+.row-2 h4 {
+  color: black;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.row-3 {
+  color: black;
+  margin-top: -15px;
+  display: flex;
+}
+
+.star-icon {
+  height: 100%;
+  width: 11px;
+  margin: 0 2px;
+}
+
+.star-icon img:hover {
+  background-color: #a6e22e;
+}
+
+.score {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.kind-1 {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-left: 5px;
+  color: #999999;
+}
+
+.kind-2 {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-left: 5px;
+  color: #999999;
+}
+
+.price {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-left: 5px;
+  color: #999999;
+}
+
+@media screen and (min-width: 1000px) {
+  .card-image p {
+    bottom: 4px;
+  }
+}

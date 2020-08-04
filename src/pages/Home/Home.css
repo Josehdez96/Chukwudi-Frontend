@@ -1,0 +1,69 @@
+#app {
+  overflow-x: hidden;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+.main-section {
+  margin: -15px 0;
+  z-index: 2;
+}
+
+.my-order-section {
+  position: fixed;
+  background-color: #f9f9f8;
+  z-index: 3;
+  top: 0;
+  right: -100vw;
+  width: 85vw;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.my-order-section.is-active {
+  right: 0;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 305px) {
+  .menu-searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5px;
+  }
+
+  .menu-searchbar .searchbar {
+    height: 100%;
+  }
+}
+
+/* DESDE 760 px ejecutar este tipo de menú */
+@media screen and (min-width: 760px) {
+  .main-section {
+    margin: 30px 5px;
+  }
+
+  .main-section.is-active {
+    width: 60vw;
+    transition: 0.7s;
+  }
+
+  .my-order-section {
+    position: fixed;
+    background-color: #f9f9f8;
+    z-index: 3;
+    top: 0;
+    right: -100vw;
+    width: 40vw;
+    bottom: 0;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-searchbar {
+    margin: 25px 30px;
+  }
+}
