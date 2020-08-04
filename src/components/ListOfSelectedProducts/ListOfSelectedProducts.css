@@ -29,21 +29,33 @@
   align-items: center;
 }
 
+@media screen and (min-width: 300px) {
+  .delivery-price {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .delivery-price {
+    margin-left: 98px;
+  }
+}
+
 @media screen and (min-width: 370px) {
   .delivery-price {
-    margin-left: 116px;
+    margin-left: 108px;
   }
 }
 
 @media screen and (min-width: 400px) {
   .delivery-price {
-    margin-left: 148px;
+    margin-left: 133px;
   }
 }
 
 @media screen and (min-width: 760px) {
   .delivery-price {
-    margin-left: 105px;
+    margin-left: 99px;
   }
 }
 
