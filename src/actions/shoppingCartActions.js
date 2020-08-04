@@ -16,11 +16,3 @@ export const addToCart = (element) => (dispatch, getState) => {
 
   alert('¡Añadiste un producto al carrito!');
 };
-
-/* Pendiente remover del carrito */
-// export const removeToCart = (element) => (dispatch) => {
-//   dispatch({
-//     type: REMOVE_TO_CART,
-//     payload: element
-//   })
-// }

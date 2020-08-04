@@ -40,7 +40,7 @@ const renderMyOrderPage = (baseClass, actualMenuState) => {
   );
 };
 
-/* Componente que se renderiza */
+/* Componente que se renderizará */
 const Home = (props) => {
   return (
     <main id='app'>

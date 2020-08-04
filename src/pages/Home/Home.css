@@ -40,7 +40,6 @@
   }
 }
 
-/* DESDE 760 px ejecutar este tipo de menú */
 @media screen and (min-width: 760px) {
   .main-section {
     margin: 30px 5px;
