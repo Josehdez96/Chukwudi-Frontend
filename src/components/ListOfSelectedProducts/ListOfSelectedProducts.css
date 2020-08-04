@@ -78,12 +78,20 @@
 
 @media screen and (min-width: 1200px) {
   .delivery-price {
-    margin-left: 230px;
+    margin-left: 90px;
+  }
+
+  .delivery-tip {
+    margin-left: 200px;
   }
 }
 
 @media screen and (min-width: 1450px) {
   .delivery-price {
-    margin-left: 270px;
+    margin-left: 180px;
+  }
+
+  .delivery-tip {
+    margin-left: 200px;
   }
 }
