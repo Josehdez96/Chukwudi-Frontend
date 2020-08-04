@@ -99,6 +99,7 @@
 
   .deliver-time-container {
     font-size: 13px;
+    margin-right: -22px;
   }
 
   .mini-table-container {
@@ -123,7 +124,7 @@
 
 @media screen and (min-width: 760px) {
   .deliver-time-container {
-    margin-right: -3px;
+    margin-right: -22px;
   }
 }
 
