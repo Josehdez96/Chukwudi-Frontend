@@ -137,10 +137,6 @@
 }
 
 @media screen and (min-width: 1000px) {
-  .mini-table-container {
-    margin-top: 18px;
-  }
-
   .dropdown-time-menu {
     height: 85px;
     margin-top: 4px;

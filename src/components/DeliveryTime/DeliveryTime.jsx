@@ -23,46 +23,49 @@ const DeliveryTime = (props) => {
         <table className='mini-table-container'>
           <tbody>
             <tr>
-              <Dropdown>
-                <Dropdown.Toggle
-                  variant='success'
-                  id='dropdown-basic'
-                  bsPrefix
-                  className='time-to-deliver'
-                >
-                  <Row>
-                    <td className='deliver-time-container'>
-                      <Link to='/' className='delivery-time-selector'>
-                        <td
-                          bsPrefix
-                          className={`actual-delivery-time-col ${props.deliveryTime[1]}`}
-                        >
-                          {props.deliveryTime[0]}
-                        </td>
-                      </Link>
-                    </td>
-                    <td className='icon-container'>
-                      <Link to='/' className='delivery-time-selector-2'>
-                        <td bsPrefix className='arrow-icon'>
-                          <img src={arrow} alt='arrowIcon' />
-                        </td>
-                      </Link>
-                    </td>
-                  </Row>
-                </Dropdown.Toggle>
-                <Dropdown.Menu bsPrefix className='dropdown-time-menu'>
-                  <Dropdown.Item onClick={props.addNowTime}>Now</Dropdown.Item>
-                  <Dropdown.Item onClick={props.addOneHourTime}>
-                    1 hr
-                  </Dropdown.Item>
-                  <Dropdown.Item onClick={props.addFiveHoursTime}>
-                    5 hr
-                  </Dropdown.Item>
-                  <Dropdown.Item onClick={props.addTwentyfourHoursTime}>
-                    24 hr
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
+              <td>
+                <Dropdown>
+                  <Dropdown.Toggle
+                    variant='success'
+                    id='dropdown-basic'
+                    bsPrefix
+                    className='time-to-deliver'
+                  >
+                    <tr>
+                      <td className='deliver-time-container'>
+                        <Link to='/' className='delivery-time-selector'>
+                          <div
+                            className={`actual-delivery-time-col ${props.deliveryTime[1]}`}
+                          >
+                            {props.deliveryTime[0]}
+                          </div>
+                        </Link>
+                      </td>
+                      <td className='icon-container'>
+                        <Link to='/' className='delivery-time-selector-2'>
+                          <td className='arrow-icon'>
+                            <img src={arrow} alt='arrowIcon' />
+                          </td>
+                        </Link>
+                      </td>
+                    </tr>
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu bsPrefix className='dropdown-time-menu'>
+                    <Dropdown.Item onClick={props.addNowTime}>
+                      Now
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={props.addOneHourTime}>
+                      1 hr
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={props.addFiveHoursTime}>
+                      5 hr
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={props.addTwentyfourHoursTime}>
+                      24 hr
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+              </td>
             </tr>
           </tbody>
         </table>
