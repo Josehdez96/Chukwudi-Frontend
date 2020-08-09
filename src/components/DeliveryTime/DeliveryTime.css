@@ -49,8 +49,16 @@
   margin-right: -9px;
 }
 
+.deliver-time-container:active {
+  transform: scale(0.9);
+}
+
 .icon-container {
   margin-bottom: 4px;
+}
+
+.icon-container:active {
+  transform: scale(0.9);
 }
 
 .mini-table-container {

@@ -65,6 +65,10 @@
   margin-top: 20px;
 }
 
+.checkout-button:active {
+  transform: scale(0.99);
+}
+
 .col-text {
   margin-right: 12px;
 }

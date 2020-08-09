@@ -40,6 +40,10 @@
   justify-content: center;
 }
 
+.exit-button-container:active {
+  transform: scale(0.9);
+}
+
 .exit-button-container button {
   width: 100%;
   height: 100%;
