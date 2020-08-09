@@ -22,6 +22,7 @@
 .icon-menu:hover::before {
   background-color: #efa335;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 280px) {

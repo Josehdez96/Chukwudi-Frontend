@@ -50,6 +50,7 @@
   height: 100%;
   width: 11px;
   margin: 0 2px;
+  cursor: pointer;
 }
 
 .star-icon img:hover {

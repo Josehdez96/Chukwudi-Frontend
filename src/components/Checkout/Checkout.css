@@ -26,6 +26,7 @@
   font-weight: 700;
   margin-left: 8px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .substract-person-button:active {
@@ -43,6 +44,7 @@
   margin-right: 8px;
   margin-top: 1px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .add-person-button:active {
