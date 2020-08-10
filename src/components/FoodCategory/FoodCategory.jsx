@@ -10,7 +10,7 @@ const FoodCategory = (props) => {
       <Container bsPrefix className='category-container'>
         <Row>
           <Col>
-            <div>
+            <div className='icon-container'>
               <img src={props.icon} alt='Cirlce' />
             </div>
           </Col>

@@ -26,6 +26,10 @@
   width: 75px;
 }
 
+.category-container .row:hover .icon-container {
+  background-color: #fafafa;
+}
+
 .category-container .row .col {
   margin: 0;
   height: 50%;
